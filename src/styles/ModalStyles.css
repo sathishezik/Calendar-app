@@ -1,0 +1,27 @@
+.event-modal-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cfcfcf;
+  
+}
+
+.left-section {
+  width: 50%;
+  border-right: 1px solid #cfcfcf;
+}
+
+.right-section {
+  width: 50%;
+  text-align: center;
+}
+
+.attachments {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.attachments a {
+  margin: 5px 0;
+}

@@ -1,0 +1,43 @@
+
+.rbc-event, .rbc-day-slot .rbc-background-event{
+    color: #000;
+    border-left:5px solid #0a58ca !important;
+    padding: 0;
+    background-color: #fff !important;
+}
+
+.rbc-event-content{
+  
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.rbc-event-content div{
+    color: #000;
+    background-color: #fff !important;
+    position:static !important;
+    
+}
+.rbc-events-container .rbc-event{
+    height: auto !important;
+    width: auto !important;
+    position: relative;
+}
+.rbc-row-segment{
+    position: relative;
+}
+.popover-card{
+    background-color: #fff;
+    border-left: 2px solid #006dbf;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.popover-card:last-child {
+    margin-bottom: 0 !important;
+}
+
+.popover{
+    border: 0 !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.popover-header{
+    background-color: #fff !important;
+    padding-right: 4px !important;
+}
