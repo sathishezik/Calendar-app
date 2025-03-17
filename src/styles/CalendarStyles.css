@@ -19,7 +19,7 @@
 .rbc-events-container .rbc-event{
     height: auto !important;
     width: auto !important;
-    position: relative;
+    /* position: relative; */
 }
 .rbc-row-segment{
     position: relative;
