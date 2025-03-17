@@ -156,9 +156,9 @@ const BigCalendar = () => {
         startDate.setMinutes(startDate.getMinutes() + istOffset - startDate.getTimezoneOffset());
         endDate.setMinutes(endDate.getMinutes() + istOffset - endDate.getTimezoneOffset());
 
-        console.log("Original Start (UTC):", event.start);
-        console.log("Converted Start (IST):", startDate.toISOString());
-        console.log("Converted End (IST):", endDate.toISOString());
+        // console.log("Original Start (UTC):", event.start);
+        // console.log("Converted Start (IST):", startDate.toISOString());
+        // console.log("Converted End (IST):", endDate.toISOString());
 
         return {
             ...event,

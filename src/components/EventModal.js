@@ -5,7 +5,9 @@ import '../styles/ModalStyles.css'
 import meetLogo from '../assets/logo_meet.png'
 
 const EventModal = ({ event, onClose }) => {
-    console.log(event);
+   
+    
+    console.log('eve',event.link);
 
     if (!event) return null;
 
@@ -54,8 +56,8 @@ const EventModal = ({ event, onClose }) => {
                     <div className="right-section d-flex flex-column align-items-center p-4">
                         <img src={meetLogo} alt="Google Meet" className="d-block mx-auto mb-2" style={{ width: "100px" }} />
 
-                        {event.meetingLink ? (
-                            <a href={event.meetingLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-100">
+                        {event.link ? (
+                            <a href={event.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-100">
                                 <i className="fa fa-video"></i> Join Meeting
                             </a>
                         ) : (
